@@ -5,12 +5,12 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 // import "./app.css"
 
-import Login from './pages/login';
-import Register from './pages/Register';
-import ReferCandidate from './pages/ReferCandidate';
+import Login from './pages/signin';
+import Register from './pages/Registerations';
+import ReferCandidate from './pages/ReferCandidates';
 import Navbar from './components/Navbaar';
 import PrivateRoute from './components/privateRoutes';
-import Dashboard from './pages/dashboard';
+import Dashboard from './pages/Dashboardd';
 
 
 function App() {

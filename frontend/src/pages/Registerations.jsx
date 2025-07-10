@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import { baseUrl } from '../utils/api';
 import { useNavigate } from 'react-router-dom';
-import './login.css'; // You can rename this to register.css if needed
+import './signin.css'; // You can rename this to register.css if needed
 
 const Register = () => {
   const [formData, setFormData] = useState({ name: '', email: '', password: '' });

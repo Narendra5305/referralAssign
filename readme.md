@@ -19,6 +19,7 @@ Features:
 ------------------------
 API Endpoints:
 ------------------------
+#api => https://referralassign.onrender.com/
 
 # User
 POST   /api/users/register    -> Register new user
@@ -86,7 +87,7 @@ Installation
 
 Backend API Base URL
 --------------------
-http://localhost:8080
+https://referralassign.onrender.com/
 
 Authentication APIs
 -------------------

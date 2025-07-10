@@ -15,7 +15,7 @@ const {candidateRouter} = require('./routes/candidateRoute');
 const app = express();
 
 app.use(cors({
-  origin: "*",
+  origin: "https://referral-management-system-0.netlify.app",
   methods: ["GET", "POST", "PATCH", "PUT", "DELETE"]
 }));
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import './CandidateCards.css';
+import './Candidatecards.css';
 import { FaTrash, FaUser, FaBriefcase, FaCheckCircle } from 'react-icons/fa';
 
 

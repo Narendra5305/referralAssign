@@ -6,11 +6,9 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 // import "./app.css"
 
 import Login from './pages/login';
-import Register from './pages/Register';
 import Dashboard from './pages/Dashboard';
+import Register from './pages/Register';
 import ReferCandidate from './pages/ReferCandidate';
-import Navbar from './components/Navbar';
-import PrivateRoute from './components/privateRoute';
 
 
 function App() {
@@ -33,7 +31,7 @@ function App() {
         }
       />
 
-        <Route path="/login" element={<Login />} />
+        <Route path="/login" element={<Login/>} />
         <Route path="/register" element={<Register />} /> 
       </Routes>
     </Router>

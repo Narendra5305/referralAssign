@@ -6,7 +6,7 @@ import { baseUrl } from '../utils/api';
 
 import { AuthContext } from '../context/authContexts';
 import './Dashboard.css';
-import CandidateCard from '../components/candidateCard';
+import CandidateCard from '../components/CandidateCards';
 
 const Dashboard = () => {
   const [candidates, setCandidates] = useState([]);

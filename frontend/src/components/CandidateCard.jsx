@@ -2,6 +2,8 @@ import React from 'react';
 import './CandidateCard.css';
 import { FaTrash, FaUser, FaBriefcase, FaCheckCircle } from 'react-icons/fa';
 
+
+
 const CandidateCard = ({ candidate, onUpdate, onDelete }) => {
   return (
     <div className="card candidate-card">

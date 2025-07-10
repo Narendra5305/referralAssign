@@ -2,6 +2,9 @@
 
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
+import "./app.css"
+
 import Login from './pages/Login';
 import Register from './pages/Register';
 import Dashboard from './pages/Dashboard';
@@ -9,10 +12,12 @@ import ReferCandidate from './pages/ReferCandidate';
 import Navbar from './components/Navbar';
 import PrivateRoute from './components/privateRoute';
 
+
 function App() {
   return (
     <Router>
       <Navbar />
+
       <Routes>
         <Route path="/" element={
           <PrivateRoute>

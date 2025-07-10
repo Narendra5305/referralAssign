@@ -1,7 +1,7 @@
 import React, { useState  ,useContext} from 'react';
 import { baseUrl } from '../utils/api';
 
-import { AuthContext } from '../context/authContext';
+import { AuthContext } from '../context/authContexts';
 
 
 

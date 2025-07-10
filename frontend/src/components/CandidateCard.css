@@ -1,0 +1,118 @@
+/* Candidate Card Container */
+.card.candidate-card {
+  max-width: 340px;
+  width: 100%;
+  border-radius: 12px;
+  padding: 20px;
+  margin: auto;
+  background-color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card.candidate-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+.card-header h3 {
+  display: flex;
+  align-items: center;
+  font-size: 1.1rem;
+  gap: 10px;
+  margin: 0;
+  color: #1f2937;
+}
+
+.card-body p {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 8px 0;
+  color: #4b5563;
+  font-size: 0.95rem;
+}
+
+.status-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.status-badge {
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-weight: 500;
+  font-size: 0.85rem;
+  text-transform: capitalize;
+}
+
+/* Status Colors */
+.status-badge.pending {
+  background-color: #fef3c7;
+  color: #92400e;
+}
+
+.status-badge.reviewed {
+  background-color: #e0f2fe;
+  color: #0369a1;
+}
+
+.status-badge.hired {
+  background-color: #dcfce7;
+  color: #166534;
+}
+
+.status-select {
+  width: 100%;
+  padding: 10px 12px;
+  margin-top: 10px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  background: #f9fafb;
+  color: #374151;
+}
+
+.status-select:focus {
+  outline: none;
+  border-color: #2563eb;
+  background: #fff;
+}
+
+.delete-button {
+  background-color: #ef4444;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: background-color 0.2s ease;
+}
+
+.delete-button:hover {
+  background-color: #dc2626;
+}
+.card.candidate-card {
+  max-width: 340px;
+  width: 100%;
+  border-radius: 12px;
+  padding: 20px;
+  margin: auto;
+  background-color: #fefce8; /* soft yellow-neutral */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}

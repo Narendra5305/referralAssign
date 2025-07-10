@@ -13,10 +13,14 @@ const {candidateRouter} = require('./routes/candidateRoute');
 
 
 const app = express();
+
 app.use(cors({
-    origin:"*",
-    methods:["GET","POST" ,"PATCH" ,"PUT" ,"DELETE"]
+  origin: "*",
+  methods: ["GET", "POST", "PATCH", "PUT", "DELETE"]
 }));
+
+
+
 app.use(express.json());
 
 

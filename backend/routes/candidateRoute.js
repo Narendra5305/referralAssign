@@ -13,7 +13,7 @@ const {
 
 candidateRouter.post('/', Auth, createCandidate);
 candidateRouter.get('/', Auth, getAllCandidates);
-candidateRouter.put('/:id', Auth, updateCandidateStatus);
+candidateRouter.put('/:id/status', Auth, updateCandidateStatus);
 candidateRouter.delete('/:id', Auth, deleteCandidate);
 
 

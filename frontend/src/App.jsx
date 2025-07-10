@@ -1,0 +1,39 @@
+
+
+// App.jsx
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Login from './pages/Login';
+import Register from './pages/Register';
+import Dashboard from './pages/Dashboard';
+import ReferCandidate from './pages/ReferCandidate';
+import Navbar from './components/Navbar';
+import PrivateRoute from './components/privateRoute';
+
+function App() {
+  return (
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={
+          <PrivateRoute>
+            <Dashboard />
+          </PrivateRoute>
+        }
+      />
+
+      <Route path="/refer" element={
+          <PrivateRoute>
+            <ReferCandidate />
+          </PrivateRoute>
+        }
+      />
+
+        <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} /> 
+      </Routes>
+    </Router>
+  );
+}
+
+export default App;

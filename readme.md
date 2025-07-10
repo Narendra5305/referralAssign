@@ -49,7 +49,7 @@ How to Run:
 1. Install dependencies:  npm install
 2. Create `.env` file:
 
-   PORT=5000
+
    MONGO_URI=your_mongodb_url
    JWT_SECRET=your_secret_key
 
@@ -74,8 +74,8 @@ Tech Stack
 Installation
 ------------
 1. Clone the repository:
-   git clone https://github.com/your-username/candidate-management-frontend.git
-   cd candidate-management-frontend
+   
+   cd frontend
 
 2. Install dependencies:
    npm install

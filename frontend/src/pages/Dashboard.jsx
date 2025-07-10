@@ -1,9 +1,12 @@
 import React, { useEffect, useState, useContext } from 'react';
 import axios from 'axios';
 import { baseUrl } from '../utils/api';
-import CandidateCard from '../components/candidateCard';
+
+
+
 import { AuthContext } from '../context/authContexts';
 import './Dashboard.css';
+import CandidateCard from '../components/candidateCard';
 
 const Dashboard = () => {
   const [candidates, setCandidates] = useState([]);
